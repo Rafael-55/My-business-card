@@ -1,0 +1,90 @@
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: 'OpenSans Bold';
+}
+
+html {
+    font-size: 18px;
+    
+}
+
+h1, h2 {
+    font-family: 'OpenSans Bold', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;    
+}
+
+main {
+    display: flex;
+    margin: 5px;
+}
+
+.img-icon {
+    margin-right: 12px;
+}
+
+.header {      
+    text-align: center;
+    padding: 20px;
+    border-bottom: rgb(3, 3, 187) 2px solid;
+}
+
+.header_link {
+    padding: 15px;
+}
+
+.link {
+    font-weight: bold;
+    color: rgb(5, 141, 5);
+}
+
+a:hover {    
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+
+.my_image {
+    border:solid rgb(2, 33, 68) 1px;    
+}
+
+.img_wrapper {
+    background-color: rgb(102, 146, 148, 0.7);
+    padding: 16px;
+    margin-right: 7px;   
+    
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 33px;
+}
+
+.subtitle {
+    border-left:solid cadetblue 11px;
+    padding-left: 10px;
+    color: darkgreen;
+    margin-bottom: 0px;
+    margin-top: 32px;
+}
+
+.footer_title {
+    color: darkgreen;
+    margin-bottom: 0px;
+    margin-top: 32px;
+}
+
+footer {
+    text-align: center;
+    height: 20vh;
+    border-top:mediumblue 2px solid;
+}
+
+address {
+    margin-top: 20px;
+}
+
